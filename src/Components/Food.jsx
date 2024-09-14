@@ -50,7 +50,7 @@ const Food = () => {
                     <div key={index} className='border shadow-lg hover:scale-105 duration-300 rounded-t-lg'>
                         <img src={item.image} alt={item.name} className='w-full h-[200px] rounded-t-lg object-cover' />
                         <div className='flex justify-between p-4 items-center'>
-                            <p className='font-bold'>{item.name}</p>
+                            <p className='font-bold text-[12px] md:text-xl'>{item.name}</p>
                             <p className='bg-orange-600 text-white px-2 py-1 rounded-full'>{item.price}</p>
                         </div>
                     </div>
